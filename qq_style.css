@@ -190,5 +190,20 @@ p {
   margin: 0 !important;
   font-family:"sarasa mono sc" !important;
   white-space: pre !important;
+  line-height: 1.2;   /* 调整行间距，默认大约是 1.2 */
+}
+
+img.floatleft {
+  float: left;
+  margin: 10px;
+}
+
+img.floatright {
+  float: right;
+  margin: 10px;
+}
+
+p {
+  clear: both;
 }
 
